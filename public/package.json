@@ -3,6 +3,7 @@
     "scripts": {
       "dev": "vite",
       "build": "vite build",
+      "migrate": "prisma migrate deploy",
       "start": "node api/index.js",
       "prisma:generate": "prisma generate",
       "prisma:migrate": "prisma migrate deploy"
